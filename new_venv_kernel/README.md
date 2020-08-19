@@ -29,4 +29,4 @@ Script will activate virtual env, install `ipython` and `ipykernel` and put this
 
 ---
 
-If do you like know more all manager your local python versions and virtualenvs take a look  in this [tutorial].(https://www.gabubellon.me/blog/pyenv)
+If do you like know more all manager your local python versions and virtualenvs take a look  in this [tutorial](https://www.gabubellon.me/blog/pyenv).
