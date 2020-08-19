@@ -1,12 +1,12 @@
 # new_env_kernel
 
-Add a python virtual env with new kernel to jupyter on user.
+Add a python virtualenv with new kernel to jupyter on user.
 
 ## How
 
-To use this script you need centralize your virtual envs in a same folder
+To use this script you need centralize your virtualenvs in a same folder
 
-Change script to you local path
+Change script to your virtualenvs local path 
 
 ```bash
 ## CHANGE TO YOUR LOCAL VIRTUAL ENV STORAGE
