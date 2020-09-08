@@ -7,7 +7,7 @@ services:
     env_file:
       - .env
     ports:
-      - 8885:8888
+      - 8888:8888
     volumes:
       - ./jupyter:/code
       - ./data:/mnt/data
@@ -17,9 +17,20 @@ services:
     build:
       context: .
     volumes:
-      - ./postgres:/var/lib/postgresql/data\
+      - ./postgres:/var/lib/postgresql/data
       - ./data:/mnt/data
     env_file:
       - .env
     ports:
-      - 5431:5432
+      - 5432:5432
+
+  http_local:
+    container_name: http_local
+    build:
+      context: http
+    volumes:
+      - ./data:/mnt/data
+    env_file:
+      - .env
+    ports:
+      - 80:80
