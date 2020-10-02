@@ -21,7 +21,7 @@ def get_extesions(file_list):
     ext = []
     for file in file_list:
         _, file_ext = os.path.splitext(file)
-        ext.append(file_ext)
+        ext.append(file_ext.lower())
 
     return list(set(ext))
 
