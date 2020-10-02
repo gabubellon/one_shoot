@@ -1,1 +1,0 @@
-Select * from my_users;
